@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="kodfun-galeri">
+        <div style="background-image: url('LOGO.png');"></div>
+        <div style="background-image: url('G.jpg');"></div>
+        <div style="background-image: url('E.png');"></div>
+        <div style="background-image: url('F.jpg');"></div>
+        <div style="background-image: url('D.jpg');"></div>
+    <hr>
+    <div style="background-image: url('3.jpg');"></div>
+    </div>
+    
+
+
+        <style>
+        
+            .kodfun-galeri {
+            display: flex;
+            height: 20rem;
+            gap: 1rem
+            }
+            
+            .kodfun-galeri > div {
+            flex: 1;
+            border-radius: 1rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            transition: all .85 cubic-bezier(.25, 4, 45, 1.4)
+            }
+            
+            .kodfun-galeri > div:hover {
+            flex: 5;
+            }
+            </style>
+</body>
+</html>
